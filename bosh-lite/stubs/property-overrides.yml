@@ -11,6 +11,7 @@ property_overrides:
       type: postgres
       username: routing_api
       password: admin
+    port: 3001
 
   tcp_router:
     tcp_stats_collection_interval: 1m

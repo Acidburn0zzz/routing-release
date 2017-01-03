@@ -166,3 +166,21 @@
 [submodule "src/github.com/lib/pq"]
 	path = src/github.com/lib/pq
 	url = https://github.com/lib/pq
+[submodule "src/github.com/valyala/fasthttp"]
+	path = src/github.com/valyala/fasthttp
+	url = https://github.com/valyala/fasthttp
+[submodule "src/github.com/valyala/bytebufferpool"]
+	path = src/github.com/valyala/bytebufferpool
+	url = https://github.com/valyala/bytebufferpool
+[submodule "src/github.com/klauspost/compress"]
+	path = src/github.com/klauspost/compress
+	url = https://github.com/klauspost/compress
+[submodule "src/github.com/klauspost/crc32"]
+	path = src/github.com/klauspost/crc32
+	url = https://github.com/klauspost/crc32
+[submodule "src/github.com/klauspost/cpuid"]
+	path = src/github.com/klauspost/cpuid
+	url = https://github.com/klauspost/cpuid
+[submodule "src/code.cloudfoundry.org/cflager"]
+	path = src/code.cloudfoundry.org/cflager
+	url = https://github.com/cloudfoundry/cflager

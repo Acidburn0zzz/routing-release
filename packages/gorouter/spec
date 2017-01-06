@@ -6,6 +6,7 @@ files:
   - routing-release/src/code.cloudfoundry.org/gorouter/**/*.{go,golden,proto,c,h,}
   - routing-release/src/code.cloudfoundry.org/gorouter/LICENSE
   - routing-release/src/code.cloudfoundry.org/gorouter/NOTICE
+  - routing-release/src/code.cloudfoundry.org/cflager/*.go # gosub
   - routing-release/src/code.cloudfoundry.org/clock/*.go # gosub
   - routing-release/src/code.cloudfoundry.org/debugserver/*.go # gosub
   - routing-release/src/code.cloudfoundry.org/gorouter/*.go # gosub
@@ -54,7 +55,6 @@ files:
   - routing-release/src/code.cloudfoundry.org/gorouter/test_util/rss/common/*.go # gosub
   - routing-release/src/code.cloudfoundry.org/gorouter/varz/*.go # gosub
   - routing-release/src/code.cloudfoundry.org/lager/*.go # gosub
-  - routing-release/src/code.cloudfoundry.org/lager/lagerflags/*.go # gosub
   - routing-release/src/code.cloudfoundry.org/localip/*.go # gosub
   - routing-release/src/code.cloudfoundry.org/routing-api/*.go # gosub
   - routing-release/src/code.cloudfoundry.org/routing-api/models/*.go # gosub
@@ -85,6 +85,12 @@ files:
   - routing-release/src/github.com/gogo/protobuf/gogoproto/*.go # gosub
   - routing-release/src/github.com/gogo/protobuf/proto/*.go # gosub
   - routing-release/src/github.com/gogo/protobuf/protoc-gen-gogo/descriptor/*.go # gosub
+  - routing-release/src/github.com/klauspost/compress/flate/*.go # gosub
+  - routing-release/src/github.com/klauspost/**/* # gosub
+  - routing-release/src/github.com/klauspost/compress/gzip/*.go # gosub
+  - routing-release/src/github.com/klauspost/compress/zlib/*.go # gosub
+  - routing-release/src/github.com/klauspost/cpuid/* # gosub
+  - routing-release/src/github.com/klauspost/crc32/* # gosub
   - routing-release/src/github.com/nats-io/nats/*.go # gosub
   - routing-release/src/github.com/nats-io/nats/encoders/builtin/*.go # gosub
   - routing-release/src/github.com/nats-io/nuid/*.go # gosub
@@ -125,6 +131,10 @@ files:
   - routing-release/src/github.com/tedsuo/ifrit/sigmon/*.go # gosub
   - routing-release/src/github.com/tedsuo/rata/*.go # gosub
   - routing-release/src/github.com/urfave/negroni/*.go # gosub
+  - routing-release/src/github.com/valyala/bytebufferpool/*.go # gosub
+  - routing-release/src/github.com/valyala/fasthttp/*.go # gosub
+  - routing-release/src/github.com/valyala/fasthttp/fasthttputil/*.go # gosub
+  - routing-release/src/github.com/valyala/fasthttp/stackless/*.go # gosub
   - routing-release/src/github.com/vito/go-sse/sse/*.go # gosub
   - routing-release/src/golang.org/x/crypto/pbkdf2/*.go # gosub
   - routing-release/src/gopkg.in/yaml.v2/*.go # gosub

@@ -38,7 +38,9 @@ properties:
         (e.g. "10s").
         It must parse to a positive time duration i.e. "-5s" is not permitted.
       * Additionally, the 'tags' and 'health_check' keys are optional.
-      * 'uris' is an array of URIs to register for the 'port'.
+      * 'uris' is an array of either strings or hashes to register for the
+        'port'. Each hash contains the 'uri' and the 'ip' keys.
+        'ip' is optional.
       * 'tags' are included in metrics that gorouter emits to support filtering.
       * 'health_check' is a hash which should have 'name' and 'script_path'.
       * 'health_check.timeout' is optional.
@@ -69,4 +71,6 @@ properties:
       - name: my-debug-endpoint
         port: 12346
         uris:
-          - my-service.system-domain.com/debug
+          - uri: my-service.system-domain.com/debug
+            ip: 1.2.3.4
+          - my-service.system-domain.com/debug_all
